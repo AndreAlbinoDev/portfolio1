@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Nice to see you</span>
-                <h1>{`Hi! I'm # Name #`}</h1>
+                <h1>{`Hi! I'm # put your name here #`}</h1>
                   <p>This is just a website made with React App.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
